@@ -530,13 +530,20 @@ ul li.menu__bloc:last-of-type {
         right: 20px;
     }
 
-    .responsivebloc {
+    .content {
         display: flex;
         flex-direction: row;  
+        flex-wrap: wrap;
         gap: 30px;
     }
-    .responsivebloc a {
-        flex: 1;
+    .content a {
+        flex: 1 1 40%;
     }
     
+}
+
+@media  screen and (min-width: 1280px) {
+    .content a {
+        flex-basis: 20%;
+    }
 }
