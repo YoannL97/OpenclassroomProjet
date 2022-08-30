@@ -7,15 +7,12 @@
     box-sizing: border-box;
     font-family: "Roboto", cursive, sans-serif;
 }
-
 h3 {
     margin: 10px 0 10px 0;
 }
-
 .Shrikhand {
     font-family: "Shrikhand";
 }
-
 html, body {
     margin: 0;
     border: 0;
@@ -23,18 +20,15 @@ html, body {
     height: 100%;
     width: 100%;
 }
-
-.FlexBoxCentre {
+.flexBoxCentre {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .spacebtw {
     display: flex;
     justify-content: space-between;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -42,11 +36,9 @@ a {
 .padding__lr {
     padding: 0 30px 0;
 }
-
-.BackGroundGrey {
+.backGroundGrey {
     background-color: rgb(246, 246, 246);
 }
-
 .main__button {
     border-radius: 35px;
     padding: 20px;
@@ -56,7 +48,6 @@ a {
     font-size: 17px;
     border: 0;
 }
-
 .main__button:hover {
     transform: scale(1.02);
     opacity: 0.9;
@@ -74,10 +65,7 @@ a {
         opacity: 0.90;
         background-color: black;
         animation: disappear 100ms forwards;
-        animation-delay: 2s;
-        
-        
-        
+        animation-delay: 2s;     
 }
 .loader::after {
         content: "";
@@ -86,13 +74,9 @@ a {
         border-top: 2px solid #fff;
         color: white;
         border-radius: 80%;
-        /*
-        background: linear-gradient(0deg, #9356DC 33%, #FF79DA 100%);
-        */
         box-sizing: border-box;
         animation: rotation 500ms linear infinite;
 }
-
 @keyframes disappear {
     0% {
         transform: scale(1);
@@ -106,7 +90,6 @@ a {
     100% { transform: rotate(360deg)}
   } 
 
-
     /*  Heart transistion   */
     
 .logo__heart {
@@ -118,7 +101,6 @@ a {
     right: -5px;
     bottom: 30px;
 }
-
 .fas {
     color: transparent;
     background-clip: text;
@@ -132,29 +114,22 @@ a {
     transform: scale(1.1);
 }
 
-
     /*  Header  */
 
-
-.Header__Logo {
+.header__logo {
     padding-bottom: 20px;
-    margin-top: 20px;
-   
-   
-    
+    margin-top: 20px;   
 }
-.Header__Logo img {
+.header__logo img {
     height: 35px;
 }
-
-.HautDePage__Ville {
+.hautDePage__ville {
     background-color: rgba(222, 222, 222, 0.916);
     box-shadow:  inset 1px 3px 4px 0px rgb(0 0 0 / 42%);
     width: 100%;
     gap: 3px;
 }
-
-.HautDePage__Ville input {
+.hautDePage__ville input {
     background-color: transparent;
     color: black;
     border: none;
@@ -162,23 +137,17 @@ a {
     text-align: center;
     font-weight: bolder;
     font-size: 16px;
-    
 }
-
-.HautDePage__Exploration {
+.hautDePage__exploration {
     padding: 20px 20px 60px;
     gap: 20px;
     background-color: rgba(243, 243, 243, 0.999);
     flex-direction: column;
     text-align: center;
-
 }
-
-.HautDePage__Exploration p {
-    font-weight: lighter;
-    
+.hautDePage__exploration p {
+    font-weight: lighter;   
 }
-
 
     /*  Fonctionnement  */
 
@@ -186,9 +155,7 @@ a {
     padding-top: 40px;
     padding-bottom: 30px;
 }
-
-
-.Fonctionnement__Btn {
+.fonctionnement__btn {
     position: relative;
     display: flex;
     align-items: center;
@@ -200,11 +167,10 @@ a {
     box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.234);
     background-color: #f6f6f6;
 }
-.Fonctionnement__Btn:hover {
+.fonctionnement__btn:hover {
     background-color: #f5edff ;
 }
-
-.Fonctionnement__Btn p {
+.fonctionnement__btn p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,17 +178,15 @@ a {
     padding-right: 30px;
     font-weight: bold;
 }
-
-.Fonctionnement__Btn i {
+.fonctionnement__btn i {
     padding-left: 20px;
     color: rgb(168, 168, 168);
     font-size: 20px;
 }
-.Fonctionnement__Btn:hover i {
+.fonctionnement__btn:hover i {
     color: #9356DC;
 }
-
-.RondViolet {
+.rondViolet {
     width: 30px;
     height: 30px;
     border-radius: 20px;
@@ -240,7 +204,6 @@ a {
     padding-top: 30px; 
     padding-bottom: 50px;
 }
-
 .postite {
     position: absolute;
     background-color: #99e2d0;
@@ -248,33 +211,26 @@ a {
     padding: 5px 15px 5px 15px;
     top: 15px;
     right: 15px;
-    border-radius: 2px;
-   
+    border-radius: 2px; 
 }
-
 .restaurants__bloc__together i {
     bottom: 17px;
 }
-
 .restaurants__bloc h2 {
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 .restaurants__bloc p {
     font-weight: 400;
     font-size: 17px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
-
-
 .bloc__footer {
     padding: 15px 20px 15px 15px;
 }
-.Bloc {
+.bloc {
     position: relative;
     border-radius: 15px;
     margin-top: 30px;
@@ -282,15 +238,13 @@ a {
     box-shadow: .25rem .25rem .5rem rgba(0, 0, 0, 0.234);
     background-color: white;
 }
-
-.Bloc img {
+.bloc img {
     border-radius: 15px 15px 0 0;
     height: 13rem;
     width: 100%;
     object-fit: cover;
 }
-
-.Bloc:hover {
+.bloc:hover {
     transform: scale(1.02);
     box-shadow:  .50rem .50rem .5rem rgba(0, 0, 0, 0.234);
 }
@@ -302,12 +256,9 @@ a {
     color: white;
     padding: 20px;
 }
-
 .footer__texte img {
-    height: 20px;
-    
+    height: 20px; 
 }
-
 .footer__texte ul {
     list-style: none;
     padding-left: 0;
@@ -317,7 +268,6 @@ a {
 }
 .footer__texte i {
     padding: 5px;
-
 }
 
     /*  Page Accueil    */
@@ -328,31 +278,27 @@ header i {
     left: 30px;
     top: 25px;
 }
-
-.MainPicture {
+.mainPicture {
     width: 100%;
     height: 300px;
     object-position: center;
     position: absolute;
 }
-.MainPicture img {
-    
+.mainPicture img {  
     width: 100%;
     object-fit: cover;
     height: 100%;
 }
 
-
     /*  Menu    */
 
 .menu {
     position: relative;
-    padding: 30px 20px 0;
+    padding: 30px 20px 40px;
     border-radius: 30px 30px 0 0 ;
     background-color: #f6f6f6;
     margin-top: 250px;
 }
-
 .menu h2 {
     font-weight: lighter;
 }
@@ -366,16 +312,12 @@ header i {
 .menu__bloc h3 {
     white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;
-    
-    
+    overflow: hidden; 
 }
-
 .menu__bloc:hover h3 {
     width: calc(100% - 80px);
     transition: all 200ms;
 }
-
 .menu__bloc {
     display: flex;
     flex-direction: row;
@@ -398,7 +340,6 @@ ul li.menu__bloc:first-of-type {
 ul li.menu__bloc:last-of-type {
     animation-delay: 1s;
 }
-
 .bloc__texte {
     padding-left: 18px;
     flex: 1;
@@ -406,22 +347,18 @@ ul li.menu__bloc:last-of-type {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 .bloc__texte__description {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 .prix {
     display: flex;
     padding-right: 20px;
     font-weight: 600 ;
 }
-.Desserts {
+.desserts {
     padding-bottom: 50px;
 }
-
-
 
     /*  Chek Box Animation  */
 
@@ -432,8 +369,7 @@ ul li.menu__bloc:last-of-type {
     height: 100%;
     width: 80px;
     border: 1px solid #99e2d0;
-    background-color:#99e2d0;
-    
+    background-color:#99e2d0;  
 }
 .chek__box i {
     height: 100% ;
@@ -443,28 +379,20 @@ ul li.menu__bloc:last-of-type {
     align-items: center;
     justify-content: center;
 }
-
 .menu__bloc:hover {
-    transform: scale(1.02);
-    
+    transform: scale(1.02); 
 }
 .menu__bloc:hover .chek__box {
     right: 0;
-    transition: all 200ms;
-    
+    transition: all 200ms;  
 }
 .menu__bloc:hover .chek__box i {
     animation: rotation 500ms ;
 }
 .menu__bloc:hover .prix {
-    
     transition: all 200ms;
     padding-right: calc(5% + 80px);
 }
-
-
-
-
 .button__menu button {
     margin-bottom: 100px;
     padding: 20px 60px 20px 60px;
@@ -493,26 +421,25 @@ ul li.menu__bloc:last-of-type {
         opacity: 1;
     }
 }
-
 @media  screen and (min-width: 768px) {
-    #HautDePage i {
+    #hautDePage i {
         font-size: 25px;
         padding-bottom: 5px;
     }
-    .HautDePage__Ville input {
+    .hautDePage__ville input {
         font-size: 25px;
     }
-    .HautDePage__Exploration h1 {
+    .hautDePage__exploration h1 {
         font-size: 35px;
     }
-    .HautDePage__Exploration p {
+    .hautDePage__exploration p {
         font-size: 20px;
     }
     .main__button {
         padding: 25px 50px 25px 50px;
         font-size: 20px;
     }
-    .Fonctionnement__Btn i {
+    .fonctionnement__btn i {
         padding-right: 15px;
     }
     #fonctionnement ul {
@@ -529,7 +456,6 @@ ul li.menu__bloc:last-of-type {
     .logo__heart i {
         right: 20px;
     }
-
     .content {
         display: flex;
         flex-direction: row;  
@@ -538,8 +464,7 @@ ul li.menu__bloc:last-of-type {
     }
     .content a {
         flex: 1 1 40%;
-    }
-    
+    }  
 }
 
 @media  screen and (min-width: 1280px) {
